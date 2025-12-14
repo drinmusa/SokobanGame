@@ -16,7 +16,9 @@ This is a JavaFX-based game project. The project uses Java 21 and JavaFX modules
 
 ### Option 1: Run using IntelliJ IDEA
 1. Open the project in IntelliJ IDEA.
-2. Go to `File → Project Structure → Libraries → + → Java` and select the `lib` folder inside the project.
-3. Set the VM options in the Run Configuration for the main class:
+2. Download the JavaFX SDK from [Gluon](https://openjfx.io/).
+3. Extract the zipped JavaFX folder
+4. In IntelliJ IDEA, go to `File → Project Structure → Libraries → + → Java` and select the `lib/` folder from your downloaded JavaFX SDK.
+5. Set the VM options in the Run Configuration for the main class:
 `--module-path C:\javafx\lib --add-modules javafx.controls,javafx.graphics`
-4. Run the main class
+6. Run the main class
